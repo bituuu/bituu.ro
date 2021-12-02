@@ -179,20 +179,20 @@ body {
 }
 
 .transition {
-	width: 110%;
-	height: 346px;
+	width: 130%;
+	height: 365px;
 	position: relative;
 	background-image: url(../images/transitionbkgv2.jpg);
-	background-size:cont;
+	background-size:contain;
 	transform: rotate(5deg);
 	left: -50px;
 	margin-top: -80px;
-	margin-bottom: -80px;
+	margin-bottom: -120px;
 	box-shadow: inset 0 0 0 1000px rgba(66, 66, 66, 0.8);
 }
 
 .transition1 {
-	width: 110%;
+	width: 130%;
 	height: 200px;
 	position: relative;
 	transform: rotate(5deg) translateY(0px);
@@ -256,6 +256,8 @@ span {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transform: translateY(50px);
+	margin-left: -500px;
 }
   
 .typing-demo {
