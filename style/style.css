@@ -296,3 +296,9 @@ span {
 		padding-right: 130px;
 	}
   }
+
+@media screen and (max-width: 769px) {
+	.typing-demo {
+		font-size: 20px;
+	}
+}
